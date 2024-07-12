@@ -1,0 +1,163 @@
+ul{
+    list-style: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    background: rgba(0,0,0,0.247);
+    padding: 8px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.2;
+    font-size: 19px;
+}
+.logo{
+    flex-grow: 1;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.home{
+    background-image:url(../image/background.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    }
+.home-content{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 30%;
+        }
+.title{
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 44px;
+    }
+.home-desc{
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.home-btn{
+   background-color:  rgb(105, 189, 105) ;
+   padding: 10px;
+   border: 0;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #fff;
+   margin: 15px;
+   text-transform: capitalize;
+}
+.overlay{
+    position: absolute;
+    width:100% ;
+    height:100% ;
+    background-color: rgb(0, 0, 0,0.5);
+    top: 0;
+    left: 0;
+}
+.studio{
+    margin-top: 100px;
+}
+.studio-content{
+    text-align: center;
+}
+.title1{
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.studio-desc{
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.studio-image img{
+width: 40%;
+margin: 3% 3%;
+}
+.people{
+    margin-top: 5%;
+    margin-bottom: 100px;
+    
+}
+.people-content{
+
+float: left;
+width: 20%;
+}
+    
+
+.title2{
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    text-transform:capitalize ;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.people img{
+    width: 100%;
+    margin-bottom: 10px;
+  
+}
+.people-text{
+    text-align: center;
+}
+.mr{
+    margin: 0 2%;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    margin-bottom: 100px;
+}
+.footer-content{
+    float: left;
+    width: 30%;
+}
+.footer-title {
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.footer-desc {
+    color: gray;
+    font-size: 13px;
+    line-height: 1.8;
+}
+.info{
+   display: block;
+   font-size: 15px;
+   color: gray;
+   line-height: 1.8;
+}
+.footer-link a{
+    color: black;
+}
+.footer-link li{
+float: left;
+ display: block;
+ padding: 3%;
+}
